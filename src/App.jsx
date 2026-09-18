@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-
+import About from "./components/About";
 function App() {
   return (
     <>
@@ -9,16 +9,7 @@ function App() {
       <main>
         <Hero />
 
-        {/* Temporary sections */}
-        <section
-          id="about"
-          className="flex min-h-screen items-center justify-center"
-        >
-          <h2 className="text-4xl font-bold">
-            About
-          </h2>
-        </section>
-
+        <About />
         <section
           id="skills"
           className="flex min-h-screen items-center justify-center bg-gray-50"
