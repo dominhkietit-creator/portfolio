@@ -41,6 +41,8 @@ export const profile = {
     location: "Ho Chi Minh City, Vietnam",
     githubUrl: "https://github.com/dominhkietit-creator",   // Customize with your GitHub profile URL
     linkedinUrl: "https://linkedin.com", // Customize with your LinkedIn profile URL
+    // (Tùy chọn) Nhận Access Key miễn phí tại https://web3forms.com để form tự động gửi thẳng vào hộp thư Gmail của bạn
+    web3formsKey: "ebf7c77a-8be6-4853-862f-140247032732",
   },
 
   // Resume settings
