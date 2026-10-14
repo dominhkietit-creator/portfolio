@@ -1,44 +1,30 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-function App() {
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
+export default function App() {
   return (
-    <>
+    <div className="min-h-screen bg-white text-neutral-900 antialiased selection:bg-neutral-900 selection:text-white">
+      {/* Navigation Bar */}
       <Navbar />
 
+      {/* Main Sections */}
       <main>
         <Hero />
-
         <About />
-        <section
-          id="skills"
-          className="flex min-h-screen items-center justify-center bg-gray-50"
-        >
-          <h2 className="text-4xl font-bold">
-            Skills
-          </h2>
-        </section>
-
-        <section
-          id="projects"
-          className="flex min-h-screen items-center justify-center"
-        >
-          <h2 className="text-4xl font-bold">
-            Projects
-          </h2>
-        </section>
-
-        <section
-          id="contact"
-          className="flex min-h-screen items-center justify-center bg-gray-50"
-        >
-          <h2 className="text-4xl font-bold">
-            Contact
-          </h2>
-        </section>
+        <Skills />
+        <Projects />
+        <Resume />
+        <Contact />
       </main>
-    </>
+
+      {/* Footer */}
+      <Footer />
+    </div>
   );
 }
-
-export default App;
